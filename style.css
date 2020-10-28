@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+body  {
+  font-family: 'Roboto', sans-serif;
+  font-weight:  300;
+  background-color: #F7EDE2;
+  color: #095256;
+  text-align: center;
+  padding-left: 0px;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#social {
+  padding-left: 0px;
+  text-align: center;
+}
+
+#icon {
+  padding-left: 0px;
+}
+.card {
+  display: inline-block;
+}
+
+a:hover {
+  color: #DE6C83;
+}
+
+#work {
+  font-weight: 700;
+}
+
+.container {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
