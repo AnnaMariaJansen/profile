@@ -37,6 +37,11 @@ a:hover {
   font-weight: 700;
 }
 
+#ruby_image {
+  align-content: center;
+  border-radius: 20%;
+}
+
 .container {
   text-align: center;
 }
