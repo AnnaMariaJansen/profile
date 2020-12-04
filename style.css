@@ -44,7 +44,7 @@ header {
 
 .card-person {
   overflow: hidden;
-  height: 600px;
+  height: 800px;
   background-color: #1b2028;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
@@ -61,6 +61,7 @@ header {
 .card-person img {
   height: 600px;
   width: 400px;
+  display: flex;
   object-fit: cover;
   padding-right: 0;
   margin-right: 0;
@@ -68,22 +69,32 @@ header {
 }
 
 .card-person h2 {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 100;
   margin: 0;
+  color:#0EF7FB;
+}
+
+.card-person h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  color:#4A7856;
 }
 
 .card-person p {
-  font-size: 12px;
+  font-size: 20px;
+  font: bold;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .card-person .card-person-infos {
   padding: 16px;
 }
+
 .footer {
   background: #860B36;
   display: flex;
@@ -102,7 +113,6 @@ header {
 
 .footer-mitte a {
   color: #FF0054;
-  opacity: 0.5;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
@@ -116,3 +126,18 @@ header {
   padding-left: 10 px;
 }
 
+.Lebenslauf-text h2 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  color:#0EF7FB;
+}
+
+.Lebenslauf-text p {
+  font-size: 20px;
+  font: bold;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 4px;
+  color: #FF0054;
+}
