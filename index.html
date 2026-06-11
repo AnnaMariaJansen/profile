@@ -10,19 +10,20 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root {
-      --bg:         #1E1E1E;
-      --sidebar-bg: #252526;
-      --surface:    #2D2D2D;
-      --border:     #3C3C3C;
-      --ink:        #D4D4D4;
-      --ink-soft:   #858585;
-      --accent:     #4EC9B0;   /* cyan – primary accent */
-      --accent2:    #DCDCAA;   /* yellow – secondary */
-      --accent3:    #C586C0;   /* pink – tertiary */
-      --str:        #CE9178;   /* orange */
-      --sidebar-w:  280px;
-    }
+:root {
+  --bg:         #1E1E1E;
+  --sidebar-bg: #252526;
+  --surface:    #2D2D2D;
+  --border:     #3C3C3C;
+  --ink:        #EDEFEF;   /* weiß */
+  --ink-soft:   #8A8A8A;   /* grau */
+  --accent:     #AA1945;   /* berry */
+  --accent2:    #C4557A;   /* berry hell */
+  --accent3:    #AA1945;   /* berry */
+  --str:        #C4557A;   /* berry hell */
+  --sidebar-w:  280px;
+}
+
 
     html { scroll-behavior: smooth; }
     body {
@@ -228,8 +229,13 @@
       margin-bottom: 6px;
     }
 
-    .cert-score { font-size: 12px; color: var(--ink-soft); }
-    .cert-score strong { color: var(--accent2); font-weight: 600; }
+    .cert-score { 
+      font-size: 12px; color: var(--accent2); 
+    }
+
+    .cert-score strong { 
+      color: var(--accent2); font-weight: 600; 
+    }
 
     /* ── Experience ── */
     .exp-item {
@@ -464,7 +470,7 @@
         <div class="edu-card">
           <div class="edu-period">10/2025 – laufend</div>
           <div class="edu-name">B.Sc. Informatik</div>
-          <div class="edu-detail">Technische Hochschule Ingolstadt<br>Schwerpunkt: Cybersicherheit · Ø 1,7<br>Fachschaft Informatik &amp; Fakultätsrat</div>
+          <div class="edu-detail">Technische Hochschule Ingolstadt<br>Schwerpunkt: Cybersicherheit · Ø 1,7<br> 2. Semester, 3. Fachsemester<br>Fachschaft Informatik &amp; Fakultätsrat<br>1. Vorstand Informatik EDV</div>
         </div>
         <div class="edu-card">
           <div class="edu-period">2020</div>
